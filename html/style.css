@@ -1,8 +1,10 @@
 body{
     margin: 0px;
+    font-family: "Roboto", sans-serif;
 }
 
 header{
+    position: relative;
     font-family: "shrikhand", cursive;
     box-shadow: 0 0 0.5rem rgb(0 0 0 / 25%);
     padding: .3rem;
@@ -10,4 +12,18 @@ header{
 
 .titre{
     text-align: center;
+}
+
+.ville{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f3f3;
+    text-align: center;
+    padding: 0.5rem;
+    gap: 1rem;
+}
+
+.fa-solid{
+    font-size: 1.5rem;
 }
