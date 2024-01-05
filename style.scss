@@ -1,0 +1,66 @@
+body{
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    position: relative;
+    font-family: "shrikhand", cursive;
+    box-shadow: 0 0 0.5rem rgb(0 0 0 / 25%);
+    padding: .3rem;
+}
+
+.titre{
+    text-align: center;
+}
+
+.ville{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f3f3;
+    text-align: center;
+    padding: 0.5rem;
+    gap: 1rem;
+}
+
+.fa-solid{
+    font-size: 1.5rem;
+}
+
+/*EXPLORER*/
+
+.explorer{
+    text-align: center;
+}
+
+.explorer h2{
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.explorer p{
+    font-size: 1rem;
+}
+
+.explorer button{
+    color: white;
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border: none;
+    background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+    box-shadow: 3px 2px 16px -6px rgba(0,0,0,0.75);
+    border-radius: 30px;
+    margin-top: 35px;
+}
+
+.explorer button:hover{
+    transform: scale(1.01);
+    opacity: 0.9;
+}
+
+div{
+    background-color: blue
+    ;
+}
