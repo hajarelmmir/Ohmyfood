@@ -1,0 +1,22 @@
+{
+  "name": "html",
+  "description": "## Description : Ce projet consiste à développer le site \"Oh My Food!\" qui présentera une plateforme de réservation de restaurants avec une mise en avant de leurs plats et des fonctionnalités interactives.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hajarelmmir/Ohmyfood.git"
+  },
+  "author": "hajar mir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hajarelmmir/Ohmyfood/issues"
+  },
+  "homepage": "https://github.com/hajarelmmir/Ohmyfood#readme",
+  "devDependencies": {
+    "sass": "^1.69.7"
+  }
+}
