@@ -1,25 +1,6 @@
-@import "../utils/zoom.scss";
-
-.tuto{
-    & ol {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1rem;
-        @media (max-width: 767.68){
-            flex-direction: column;
-            
-        }
-    }
-    & li{
-        background-color: #f6f6f6 ;
+.tuto {
+    &li{
+        background-color: #f6f6F6;
         padding: 1rem 2rem;
-        border: 1px solid red;
-        flex-grow: 1;
-        border-radius: 1rem;
-        @include base-shadow;
-        &:hover{
-            @include zoom;
-        }
     }
 }
-
